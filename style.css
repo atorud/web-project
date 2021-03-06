@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 29, 38) ;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+#car{
+    position: relative;
+    width: 256px;
+    height: 256px;
+   
+}
+
+#car img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#car .lamp-left{
+    position: absolute;
+    top: 101px;
+    left: 19px;
+    width: 33px;
+    height: 46px;
+    border-radius: 50%;
+    transform: rotateZ(26deg);
+    transition: .5s;
+}
+
+#car .lamp-right{
+    position: absolute;
+    top: 101px;
+    left: 207px;
+    width: 33px;
+    height: 46px;
+    border-radius: 50%;
+    transform: rotateZ(-19deg);
+    transition: .5s;
+}
+
+
+
+#car:hover .lamp-left {
+background-color:  rgb(253, 253, 249);
+box-shadow:0 0 10px rgb(252, 252, 250),
+    0 0 20px rgb(250, 250, 246),
+    0 0 30px rgb(252, 252, 250),
+    0 0 40px rgb(253, 253, 251),
+    0 0 50px rgb(255, 255, 253),
+    0 0 60px rgb(252, 252, 249),
+    0 0 70px rgb(252, 252, 250),
+    0 0 80px rgb(250, 250, 248),
+    0 0 90px rgb(252, 252, 250),
+    0 0 100px rgb(247, 247, 245);
+
+}
+
+#car:hover .lamp-right {
+    background-color:  rgb(255, 255, 251);
+    box-shadow:0 0 10px rgb(255, 255, 253),
+        0 0 20px rgb(252, 252, 249),
+        0 0 30px rgb(253, 253, 249),
+        0 0 40px rgb(250, 250, 246),
+        0 0 50px rgb(252, 252, 249),
+        0 0 60px rgb(250, 250, 248),
+        0 0 70px rgb(253, 253, 252),
+        0 0 80px rgb(255, 255, 253),
+        0 0 90px rgb(252, 252, 249),
+        0 0 100px rgb(252, 252, 250);
+    
+    }
+
+    .left{
+        position: absolute;
+        top: 158px;
+        left: 28px;
+        width: 10px;
+        height: 12px;
+        border-radius: 50%;
+        
+    }
+
+.right{
+    position: absolute;
+    top: 157px;
+    left: 221px;
+    width: 10px;
+    height: 12px;
+    border-radius: 50%;
+    
+}
+
+
+#car:hover .left {
+background-color: rgb(208, 211, 10);
+box-shadow: 0 0 10px rgb(208, 211, 10),
+0 0 20px rgb(208, 211, 10),
+0 0 30px rgb(208, 211, 10),
+0 0 40px rgb(208, 211, 10),
+0 0 50px rgb(208, 211, 10),
+0 0 60px rgb(208, 211, 10),
+0 0 70px rgb(208, 211, 10),
+0 0 80px rgb(208, 211, 10),
+0 0 90px rgb(208, 211, 10),
+0 0 100px rgb(208, 211, 10);
+}
+
+#car:hover .right {
+    background-color: rgb(208, 211, 10);
+    box-shadow: 0 0 10px rgb(208, 211, 10),
+    0 0 20px rgb(208, 211, 10),
+    0 0 30px rgb(208, 211, 10),
+    0 0 40px rgb(208, 211, 10),
+    0 0 50px rgb(208, 211, 10),
+    0 0 60px rgb(208, 211, 10),
+    0 0 70px rgb(208, 211, 10),
+    0 0 80px rgb(208, 211, 10),
+    0 0 90px rgb(208, 211, 10),
+    0 0 100px rgb(208, 211, 10);
+    }
+
+    
